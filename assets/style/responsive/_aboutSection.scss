@@ -1,0 +1,313 @@
+@media only screen and (min-width: 1201px) and (max-width: 1366px) {
+    
+    ._about {
+
+
+        ._about_content {
+
+
+            ._about_title {
+                
+            }
+
+            ._about_heading {
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    ._about {
+
+
+        ._about_content {
+
+
+            ._about_title {
+                font-size: 16px;
+            }
+
+            ._about_heading {
+                font-size: 40px;
+            }
+
+            ._about_doctor {
+
+                ._img_container {
+                    
+                }
+
+
+                ._about_context {
+
+                    ._name {
+                        font-size: 28px;
+                    }
+
+                    ._lead {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    ._section_about_doctor {
+        padding-top: 10rem;
+
+        ._doctor_img_container {
+            max-width: 80% !important;
+            margin: auto;
+        }
+
+        ._context {
+            width: 80%;
+            margin: auto;
+
+
+            > ._container {
+                padding: 0;
+            }
+
+
+            ._section_about_title {
+                // font-size: ;
+            }
+
+            ._section_heading {
+                font-size: 50px !important;
+            }
+
+            ._counters {
+                ._counter_number {
+                    font-size: 45px !important;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    
+    ._about {
+
+
+        ._about_content {
+
+            ._about_title {
+                font-size: 16px;
+            }
+
+            ._about_heading {
+                font-size: 36px;
+            }
+
+            ._about_doctor {
+
+                ._img_container {
+                    
+                }
+
+
+                ._about_context {
+
+                    ._name {
+                        font-size: 24px;
+                    }
+
+                    ._lead {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    ._section_about_doctor {
+        padding-top: 10rem;
+
+        ._doctor_img_container {
+            max-width: 80% !important;
+            margin: auto;
+        }
+
+        ._context {
+            width: 80%;
+            margin: auto;
+
+
+            > ._container {
+                padding: 0;
+            }
+
+
+            ._section_about_title {
+                // font-size: ;
+            }
+
+            ._section_heading {
+                font-size: 45px !important;
+                display: block;
+            }
+
+            ._counters {
+                ._counter_number {
+                    font-size: 40px !important;
+                }
+            }
+
+            ._about_doctor_buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                a  {
+                    margin: 0 !important;
+
+                    &:first-child {
+                        margin-bottom: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+    
+    ._about {
+
+        &._home_page {
+
+            ._about_content {
+                padding-bottom: 4rem;
+            }
+        }
+
+        ._about_content {
+            padding-bottom: 0.75rem;
+            padding-top: 5rem;
+
+
+            ._about_title {
+                font-size: 16px;
+            }
+
+            ._about_heading {
+                display: block;
+                font-size: 27px;
+                padding: 0.75rem;
+            }
+
+            ._about_doctor {
+                align-items: center;
+
+                ._img_container {
+                    height: 100px;
+                    width: 100px;
+                    padding: 0;
+                    flex-shrink: 0;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        height: 90px !important;
+                        width: 90px !important;
+                        object-fit: cover !important;
+                    }
+                }
+
+
+                ._about_context {
+                    margin-left: 0.5rem;
+
+                    ._name {
+                        font-size: 18px;
+                    }
+
+                    ._lead {
+                        font-size: 12px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+
+    ._section_about_doctor {
+        padding-top: 10rem;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+
+
+        ._doctor_img_container {
+            max-width: 100% !important;
+            margin: auto;
+
+            ._doctor_img {
+                object-fit: cover;
+            }
+        }
+
+        ._context {
+            width: 100%;
+            margin: auto;
+
+
+            > ._container {
+                padding: 0 !important;
+            }
+
+
+            ._section_about_title {
+                // font-size: ;
+            }
+
+            ._section_heading {
+                font-size: 32px !important;
+                display: block;
+            }
+
+            ._counters {
+                ._counter_number {
+                    font-size: 26px !important;
+                }
+            }
+
+            ._about_doctor_buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    margin: 0;
+
+                    &:first-child {
+                        margin-bottom: 0.75rem;
+                    }
+                }
+            }
+
+        }
+    }
+}

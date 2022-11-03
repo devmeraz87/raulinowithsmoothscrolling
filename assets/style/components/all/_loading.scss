@@ -1,0 +1,41 @@
+._loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 99999999;
+
+    ._loading_name,
+    ._loading_logo {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ._loading_name {
+        background-color: #15151d;
+
+        h1 {
+            padding: 8px 0;
+            border-bottom: 2px solid coral;
+            font-size: 22px;
+            color: #fff;
+        }
+    }
+
+    ._loading_logo {
+        background-color: #9a8a68;
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+}
