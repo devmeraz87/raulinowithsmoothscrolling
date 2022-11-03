@@ -98,8 +98,9 @@
 
 
 
-    <div data-scroll-container >
-        <div>
+    <!-- <div data-scroll-container > -->
+    <div  class="main"  >
+        <div data-scroll class="___">
              <!-- // >> Hero showcase start  -->
              <div  class="_hero h-screen w-full" style="background: url(./assets/img/showcase/showcase.png) no-repeat center center/cover;">
                 <div class="_container m-auto px-3 h-full text-white">
@@ -513,17 +514,32 @@
     <!-- // From Home js / -->
     <script src="./assets/js/components/lipo/lipoCarosuel.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script>
         (function () {
             const scroll = new LocomotiveScroll({
                 el: document.querySelector('[data-scroll-container]'),
-                smooth: true
+                smooth: true,
+                direction: "horizontal",
+                mobile: {
+                breakpoint: 768,
+                smooth: true,
+                direction: "horizontal",
+                },
+                tablet: {
+                breakpoint: 992,
+                smooth: true,
+                direction: "horizontal"
+                },
             });
         })();
-    </script>
+    </script> -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
     <!-- <script src="./assets/js/components/all/video_player.js"></script> -->
+    <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+    <script src="./smoothScrolling.js"></script>
 </body>
 </html>
 
