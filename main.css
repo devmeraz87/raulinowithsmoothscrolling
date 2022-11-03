@@ -64,15 +64,3 @@ html.has-scroll-smooth {
     [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
       right: auto;
       bottom: 0; }
-
-
-      ._ultra_hd_img_container {
-          height: 860px;
-           width: 670px;
-          overflow: hidden;
-      }
-
-      ._ultra_hd_img_container img {
-        height: 898px;
-        width: 698px;
-      }
